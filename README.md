@@ -31,3 +31,63 @@ This dataset is widely used for introducing classification concepts in Machine L
 ---
 
 ## 🧩 Project Structure
+
+
+iris-flower-classification/
+│
+├── iris_pipeline.py # Model training and evaluation
+├── iris_app.py # Streamlit app for interactive prediction
+├── iris_model.joblib # Saved trained model
+├── iris_scaler.joblib # StandardScaler saved for normalization
+├── requirements.txt # All dependencies
+└── README.md # Project documentation (this file)
+
+
+---
+
+## 🧪 How It Works
+
+1️⃣ **Data Loading** — Iris dataset imported from `sklearn.datasets`  
+2️⃣ **Data Preprocessing** — Standard scaling applied using `StandardScaler`  
+3️⃣ **Model Training** — SVM (Support Vector Machine) trained for classification  
+4️⃣ **Evaluation** — Achieved ~96 % accuracy  
+5️⃣ **Model Persistence** — Model and scaler saved via `joblib`  
+6️⃣ **App Interface** — Streamlit UI built for real-time predictions  
+
+---
+
+## 💻 Run Locally
+
+### 🔹 Step 1 — Clone the Repository
+```bash
+git clone https://github.com/<your-username>/iris-flower-classification.git
+cd iris-flower-classification
+
+🔹 Step 2 — Install Dependencies
+pip install -r requirements.txt
+
+🔹 Step 3 — Train the Model
+python iris_pipeline.py
+
+🔹 Step 4 — Launch the Streamlit App
+streamlit run iris_app.py
+
+
+🌐 Visit → http://localhost:8501
+
+🌺 Example Output
+
+When you move the sliders and click Predict,
+you’ll see the predicted flower species with a friendly success message 🌸
+
+📊 Model Performance
+Metric	Score
+Accuracy	96 %
+Precision	95 %
+Recall	96 %
+F1-Score	95.5 %
+
+
+🪴 Author
+
+👩‍💻 Nandini
