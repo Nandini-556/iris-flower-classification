@@ -1,5 +1,11 @@
 # 🌸 Iris Flower Classification — Machine Learning Project
 
+## 🚀 Live Streamlit App  
+This project is live and running online!  
+Click the link below to open it instantly:
+
+🔗 **https://iris-flower-classification-ikma9qifmbvvvg9requmjm.streamlit.app/**
+
 ### 📘 Overview  
 This project is a complete **end-to-end Machine Learning pipeline** built using **Python, Scikit-learn, and Streamlit**.  
 It predicts the **species of an Iris flower** based on four key features — *Sepal Length, Sepal Width, Petal Length,* and *Petal Width.*
